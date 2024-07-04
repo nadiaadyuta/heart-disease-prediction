@@ -51,7 +51,7 @@ This dataset contain some medical information of patients which tells whether th
 - **Cross Validation**: Model correctly identified 96% of all actual heart disease cases in the dataset
 - **Learning Curve**: The train data reached an accuracy score of 1, indicating that the model might be too complex or overfitting.
 - **Hyperparameter Tuning**: Using a 'RandomizedSearchCV' and resulted in a possible best score of 95%
-- **Final Model**: Fitting model with tuning result parameter
+- **Final Model**: Random Forest Classifier with tuning result parameter
 - **Confussion Matrix**: There were 11 patients diagnosed with no heart disease when they actually had heart disease. This kind of misdiagnosis can be fatal as it puts the patient's life at risk
 - **Evaluation Metric**: Using a recall metric that measures the ability of the model to correctly identify all true positive cases, resulted in an accuracy of 95%
 
